@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# --- Claude Code local config ---
+.claude/
+
+# --- Project: generated artifacts ---
+# Pipeline outputs (regenerate with the scripts in src/)
+private_scratchpads/runs/
+private_scratchpads/results/
+
+# Local data bundle (run traces / results — kept off GitHub)
+private_scratchpads_data.zip
+*.zip
+
+# --- Project: internal docs / drafts (kept local) ---
+private_scratchpads/private_scratchpads_plan.md
+private_scratchpads/paper/
+
+# --- Project: ARR submission drafts, notes, raw traces (kept local) ---
+arr_submission.tex
+arr_*.md
+custom.bib
+traces_qwq.jsonl

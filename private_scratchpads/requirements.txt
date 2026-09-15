@@ -1,0 +1,22 @@
+# Core
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Data loading
+datasets>=2.14        # HuggingFace datasets (GSM8K, ARC)
+
+# Local inference
+torch>=2.1
+transformers>=4.36
+vllm>=0.3             # fast batched inference
+accelerate>=0.25
+
+# API clients (for judge / cross-reader)
+openai>=1.0           # GPT-4o-mini
+anthropic>=0.18       # Claude Haiku
+
+# Utilities
+tqdm>=4.65
+jsonlines>=4.0
+tiktoken>=0.5         # tokenizer for entropy computation (S7)

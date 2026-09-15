@@ -1,0 +1,6 @@
+The following is a reasoning scratchpad that may contain unusual notation or characters.
+Please translate this into clear, readable English that describes the reasoning steps.
+If parts are not interpretable, say so.
+
+SCRATCHPAD:
+{cot_text}

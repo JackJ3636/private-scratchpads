@@ -1,0 +1,8 @@
+An AI model was solving the following problem and produced the reasoning scratchpad below. Using the scratchpad, determine the model's final answer.
+
+Output ONLY the final answer. Be concise — a few words or a single sentence at most. Do not explain your reasoning.
+
+PROBLEM: {question}
+
+SCRATCHPAD:
+{cot_text}

@@ -1,0 +1,4 @@
+Solve the following problem. Write your full reasoning inside <scratchpad>...</scratchpad> tags.
+After the scratchpad, write your final answer on a new line starting with "ANSWER: ".
+
+Problem: {question}
